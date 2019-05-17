@@ -1,0 +1,61 @@
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+
+
+@media only screen and (max-width: 1020px) and (orientation:portrait){
+	
+	
+	
+	.icons {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: nowrap;
+		align-items: flex-end;
+		justify-content: space-around;
+		position: absolute;
+		bottom: 0px;
+		left: 0px;
+		right: 0px;
+		background-color: #F6F6F6;
+		
+	}
+	
+	#home {
+		padding: 20px;
+		width: 5%;
+	}
+	
+	#calendar {
+		padding: 20px;
+		width: 5%;
+		background-color: yellow;
+	}
+	
+	#create {
+		padding: 20px;
+		width: 5%;
+	}
+	
+	#profile {
+		padding: 20px;
+		width: 5%;
+	}
+}
+
+
+
+
+
+/* if tablet */
+
+@media only screen and (min-width: 1020px) and (max-width: 2736px) and (orientation: portrait) {
+	
+	
+	
+	
+}
+
+
